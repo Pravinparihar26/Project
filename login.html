@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About US</title>
+    <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -23,7 +23,7 @@
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about us.html">About Us</a>
+                        <a class="nav-link" href="about us.html">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Services</a>
@@ -44,43 +44,25 @@
                     </li>
                 </ul>
             </div>
-            <!-- Move the login button here -->
-            <a href="login.html" class="btn btn-primary"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .8rem; --bs-btn-font-size: .75rem;">
-                Login
-            </a>
-
         </div>
     </nav>
 
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        Know more About Us.
-        <button type="button" class="btn btn-primary"
-            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-            New
-        </button>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <h2 class="text-center mb-4">About Us</h2>
-                <p class="text-justify">
-                    Welcome to Tech Hub! We are a team of dedicated professionals committed to improving lives through innovative solutions. Our mission is to provide exceptional services that make a positive impact on our clients and community.
-                </p>
-                <p class="text-justify">
-                    At Tech Hub, we envision a world where technology empowers everyone. Our team is driven by a passion for technology, and we work collaboratively to deliver cutting-edge products and services that align with our vision.
-                </p>
-                <p class="text-justify">
-                    Our core values include innovation, integrity, and customer satisfaction. These values guide our decisions and actions, shaping the way we interact with our clients and community.
-                </p>
-                <p class="text-justify">
-                    Since our establishment in 2023, we have been dedicated to our key goals and objectives. Our skilled and diverse team members bring a wealth of experience and expertise to the table. We are constantly innovating and adapting to meet the ever-changing needs of our clients.
-                </p>
-                <p class="text-justify">
-                    Tech Hub is proud to be a leader in the tech industry. We are not just a company; we are a community. Our commitment to excellence and integrity sets us apart. Thank you for considering Tech Hub as your technology partner. We look forward to serving you and building a lasting relationship.
-                </p>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="border p-4">
+            <form>
+                <h3 class="text-center mb-4">Login:</h3>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+            <div class="text-center mt-3">
+                <p>Don't have an account? <a href="sign up.html">Sign up here</a>.</p>
             </div>
         </div>
     </div>
