@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tech Hub</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
@@ -27,11 +28,11 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Tech Hub</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Use "navbar-brand" for the logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="logo-transparent.png" alt="Logo" height="50px">
+            </a>
+
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -59,26 +60,25 @@
                     </li>
                 </ul>
             </div>
+
             <!-- Move the login button here -->
             <a href="login.html" class="btn btn-primary"
                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .8rem; --bs-btn-font-size: .75rem;">
                 Login
             </a>
-
         </div>
     </nav>
-
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://source.unsplash.com/1600x600/?technology" class="d-block w-100" alt="...">
+                <img src="jpg21.jpeg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://source.unsplash.com/1600x600/?latest technology" class="d-block w-100" alt="...">
+                <img src="jpg20.jpeg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://source.unsplash.com/1600x600/?future technology" class="d-block w-100" alt="...">
+                <img src="jpg17.jpeg" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -98,7 +98,7 @@
                     <img src="jpg4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Robots</h5>
-                        <p class="card-text">A robot is a programmable machine that can complete a task</p>
+                        <p class="card-text">Innovative and programmable machines for autonomous task execution.</p>
                         <a href="#" class="btn btn-primary">Explore more</a>
                     </div>
                 </div>
@@ -107,8 +107,8 @@
                 <div class="card">
                     <img src="jpg5.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">AI</h5>
-                        <p class="card-text">A robot is a programmable machine that can complete a task</p>
+                        <h5 class="card-title">Artificial Intelligence</h5>
+                        <p class="card-text">Machines mimicking human intelligence for advanced problem-solving.</p>
                         <a href="#" class="btn btn-primary">Explore more</a>
                     </div>
                 </div>
@@ -118,7 +118,8 @@
                     <img src="jpg6.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Blockchain</h5>
-                        <p class="card-text">A robot is a programmable machine that can complete a task</p>
+                        <p class="card-text">Revolutionary technology for secure and transparent digital transactions.
+                        </p>
                         <a href="#" class="btn btn-primary">Explore more</a>
                     </div>
                 </div>
@@ -127,8 +128,8 @@
                 <div class="card">
                     <img src="jpg7.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">IOT</h5>
-                        <p class="card-text">A robot is a programmable machine that can complete a task</p>
+                        <h5 class="card-title">Internet of Things</h5>
+                        <p class="card-text">Interconnected devices creating a smart and seamless environment.</p>
                         <a href="#" class="btn btn-primary">Explore more</a>
                     </div>
                 </div>
@@ -138,7 +139,7 @@
 
     <div class="mx-auto text-center">
         <h3 class="mt-5 mb-4">Latest Projects</h3>
-    
+
         <!-- Card 1 -->
         <div class="card mb-3 mx-auto" style="max-width: 540px;">
             <div class="row g-0">
@@ -153,7 +154,7 @@
                 </div>
             </div>
         </div>
-    
+
         <!-- Card 2 -->
         <div class="card mb-3 mx-auto" style="max-width: 540px;">
             <div class="row g-0">
@@ -168,7 +169,7 @@
                 </div>
             </div>
         </div>
-    
+
         <!-- Card 3 -->
         <div class="card mb-3 mx-auto" style="max-width: 540px;">
             <div class="row g-0">
@@ -184,7 +185,7 @@
             </div>
         </div>
     </div>
-      
+
 
     <div class="container-fluid bg-dark text-white p-0 mb-0">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
